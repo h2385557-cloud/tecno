@@ -6,7 +6,7 @@ const app = express();
 const server = http.createServer(app);
 
 const proxy = createProxyServer({
-  target: 'https://34.51.55.39:443',
+  target: 'https://runvicgo.vicgogt.online:443',
   changeOrigin: true,
   ws: true,
   secure: false,
@@ -21,7 +21,7 @@ server.on('upgrade', (req, socket, head) => {
 });
 
 app.get('/', (_, res) => {
-  res.send('ShadowVPN https://t.me/danaelssh');
+  res.send('danael bracked');
 });
 
 const PORT = process.env.PORT || 8080;
