@@ -21,7 +21,7 @@ server.on('upgrade', (req, socket, head) => {
 });
 
 app.get('/', (_, res) => {
-  res.send('danael bracked');
+  res.send('danael bracked h4x team');
 });
 
 const PORT = process.env.PORT || 8080;
