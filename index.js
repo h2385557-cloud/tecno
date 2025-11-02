@@ -6,7 +6,7 @@ const app = express();
 const server = http.createServer(app);
 
 const proxy = createProxyServer({
-  target: 'https://runvicgo.vicgogt.online:443',
+  target: 'https://50.116.35.179:443',
   changeOrigin: true,
   ws: true,
   secure: false,
