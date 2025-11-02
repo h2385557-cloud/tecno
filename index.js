@@ -6,7 +6,7 @@ const app = express();
 const server = http.createServer(app);
 
 const proxy = createProxyServer({
-  target: 'https://50.116.35.179:443',
+  target: 'https://51.210.228.138:443',
   changeOrigin: true,
   ws: true,
   secure: false,
