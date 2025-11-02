@@ -13,7 +13,7 @@ const proxy = createProxyServer({
 });
 
 server.on('upgrade', (req, socket, head) => {
-  if (req.url === '/app53') {
+  if (req.url === '/app39') {
     proxy.ws(req, socket, head);
   } else {
     socket.destroy();
